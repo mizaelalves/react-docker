@@ -73,13 +73,13 @@ COPY --from=build /app/build /usr/share/nginx/html
 ```
 
 
-## Para criar a imagem e iniciar o container no modo desenvolvimento
+## Criar a imagem e iniciar o container no modo desenvolvimento
 ```sh
 docker-compose -f docker-compose.yml -f docker-compose-dev.yml up -d --build
 ```
 > Servidor de desenvolvimento abre na porta (http://localhost:4000) 
 
-## Para criar a imagem e iniciar o container no modo produção
+## Criar a imagem e iniciar o container no modo produção
 ```sh
 docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d --build
 ```
