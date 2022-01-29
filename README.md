@@ -92,6 +92,8 @@ docker-compose -f docker-compose.yml -f docker-compose-prod.yml up -d --build
 * Github: [@mizaelalves](https://github.com/mizaelalves)
 * LinkedIn: [@mizaelalves](https://linkedin.com/in/mizaelalves)
 
+> SO utilizado ZorinOS 16
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
