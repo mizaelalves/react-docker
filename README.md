@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to react-demo 👋</h1>
+<h1 align="center">Welcome to react-docker👋</h1>
 <p>
   <img src="https://img.shields.io/badge/node-%3E%3D14-blue.svg" />
   <img src="https://img.shields.io/badge/docker-%3E%3D20.10.9-blue.svg" />
