@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  react-docker-prod:
+    build: 
+      context: .
+      dockerfile: Dockerfile.prod
+      args:
+        - REACT_APP_NAME=Mizael-prod
+    ports:
+      - "8080:80"
+
+    
+    

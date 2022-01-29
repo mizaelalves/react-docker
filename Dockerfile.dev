@@ -1,0 +1,17 @@
+FROM node
+
+WORKDIR /app
+
+COPY package.json .
+
+RUN  yarn install
+
+COPY . .
+
+ARG REACT_APP_NAME
+
+ENV REACT_APP_NAME=Mizael-dev
+
+EXPOSE 3000
+
+CMD ["yarn", "start"]

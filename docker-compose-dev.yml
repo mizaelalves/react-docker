@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  react-docker-dev:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "4000:3000"
+    volumes:
+      - ./src:/app/src:ro
+    environment:
+      - REACT_APP_NAME=Mizael-dev
+    
+    
